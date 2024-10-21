@@ -1,0 +1,141 @@
+body {
+    background-color: grey;
+    margin: 0px;
+}
+
+#navbar-custom {
+    text-align: right;
+    background-color: white;
+    padding: 20px 0px;
+}
+p {
+    display: inline;
+    margin-right: 40px;
+}
+
+.header-style {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    width: 95%; 
+    margin: auto;  
+    margin-top: 40px;
+}
+.profile-card {
+    text-align: left;
+    margin-bottom: 20px;
+    display: inline-flex;
+}
+.profile-image {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    display: inline;
+    margin: 0 auto 10px;
+}
+.profile-info {
+    margin-left: 60px;
+}
+.profile-info h2 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+.profile-info p {
+    color: #777;
+    margin-bottom: 15px;
+}
+
+
+.details {
+    float: right;
+    width: 55%;
+}
+.details ul {
+    list-style-type: none;
+}
+.details li {
+    margin-bottom: 10px;
+}
+
+
+#box-form {
+    height: 500px;
+}
+#form-data {
+    background-color: white;
+    margin-top: 20px;
+}
+form input {
+    width: 98%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    text-align: center;
+}
+form button {
+    padding: 10px;
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    width: 80%;
+}
+
+#submit-style {
+    margin-left: 10px;
+    background-color: green;
+    margin-top: 10px;
+}
+
+#hp-menu {
+    display: none;
+}
+
+
+/* #hp-menu {
+    display: none;
+    background-color: blue;
+} */
+
+
+/* @media only screen and (min-width: 321px) and (max-width: 400px) {
+    .profile-info h2 {
+        color: yellow;
+    }
+
+    #web-menu {
+        display: none;
+    }
+
+    #hp-menu {
+        display: inline;
+    }
+
+
+
+
+    .profile-card {
+        display: block;
+    }
+
+    .profile-image {
+        margin-left: 36%;
+    }
+
+    .profile-info {
+        display: block;
+        margin-left: 30%;
+    }
+     
+    .details {
+        text-align: center;
+        margin-right: 18%;
+        width: 300px;
+    }
+} */
+
+

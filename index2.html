@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+</head>
+<body>
+    
+    <!-- navbar -->
+    <div id="navbar-custom">
+        <div id="web-menu">
+            <p class="p-web">home</p>
+            <p class="p-web">profile</p>
+            <p class="p-web">setting</p>
+            <p class="p-web">inventory</p>
+        </div>
+        <p id="hp-menu">menu</p>
+    </div>
+
+    <!-- head-style -->
+    <div class="header-style">
+
+        <div class="profile-card">
+            <img src="images/profile_toyota.png" alt="Profile Image" class="profile-image">
+            
+            <div class="profile-info" id="header-details">
+                <h2 id="fullname-user">Jhon Doe</h2>
+                <p id="role-user">Front End Designer</p>
+            </div>
+        </div>
+
+        <div class="details">
+            <ul>
+                <li><strong>Availability:</strong> <p id="avail"> Full Time</p></li>
+                <li><strong>Usia:</strong><p id="age"> 17</p></li>
+                <li><strong>Lokasi:</strong><p id="location">Jakarta, Indonesia</p></li>
+                <li><strong>Pengalaman:</strong><p id="experience"> 2</p></li>
+                <li><strong>Email:</strong><p id="email">Developer@gmail.com</p></li>
+            </ul>
+        </div>
+
+    </div>
+
+    <!-- form-style -->
+    <div class="header-style" id="box-form">
+        <form action="" onsubmit="return handleSubmit(event)">
+            <label for="">name</label> <br>
+            <input type="text" id="name-user"> <br>
+    
+            <label for="">role</label>
+            <input type="text" id="role-user-input"> <br>
+    
+            <label for="">availibilty</label>
+            <input type="text" id="avail-input"> <br>
+    
+            <label for="">age</label>
+            <input type="text" id="age-input"> <br>
+    
+            <label for="">location</label>
+            <input type="text" id="location-input"> <br>
+    
+            <label for="">experience</label>
+            <input type="text" id="experience-input"> <br>
+    
+            <label for="">email</label>
+            <input type="text" id="email-input"> <br>
+
+            <input id="submit-style" type="submit" value="Send">
+        </form>
+    </div>
+
+    <script src="js/index2.js">
+        // console.log("TESTING");
+    </script>
+</body>
+</html>
